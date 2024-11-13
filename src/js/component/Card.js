@@ -24,7 +24,7 @@ const cardStyles = {
 
 function Card(props) {
     return (
-        <div className="card mt-3 text-center" style={cardStyles.card}>
+        <div className="card mx-auto mt-3 text-center" style={cardStyles.card}>
             <img src={props.img} className="card-img-top" alt="..." style={cardStyles.image} />
 
             <h4 className="card-title">{props.titleCard}</h4>

@@ -46,7 +46,7 @@ const Home = () => {
 			<Navbar />
 			<div className="container mt-0">
 				<Jumbotron />
-				<div className="row d-flex justify-content-between">
+				<div className="row justify-content-between">
 					{films.map((film, index) => (
 						<div className="col-12 col-lg-6 col-xl-4 col-xxl-3 mb-4" key={index}>
 							<Card
